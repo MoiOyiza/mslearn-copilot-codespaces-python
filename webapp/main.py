@@ -6,6 +6,7 @@ from fastapi import FastAPI
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
+# Create a Pydantic model for text input
 
 current_dir = dirname(abspath(__file__))
 static_path = join(current_dir, "static")
